@@ -1,0 +1,63 @@
+/* General styling for the entire document */
+html {
+    position: relative;
+    min-height: 100%;  /* Ensures the full height of the page is considered */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 60px; /* Add padding at the bottom to ensure content doesn't overlap the footer */
+}
+
+/* Header styling */
+h1 {
+    color: #333;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Styling for the latest and previous table entries */
+.latest-plate {
+    background-color: #1e90ff;
+    color: white;
+}
+
+.previous-plate {
+    background-color: #d8bfd8;
+    color: black;
+}
+.logout-link {
+    float: right; /* Positions the link to the right side of its container */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding inside the link for a better button-like appearance */
+    text-decoration: none; /* Removes underline from the link */
+    border-radius: 5px; /* Rounded corners for the link */
+    margin-top: 20px; /* Space from the top */
+}
+
+/* Footer styling */
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Darker background for the footer */
+    color: white; /* Light color text for visibility */
+    text-align: center;
+    padding: 10px 0;
+}
